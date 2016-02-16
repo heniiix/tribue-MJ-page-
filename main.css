@@ -1,0 +1,294 @@
+body {
+    transition: all 1s ease;
+    font-size: 18px;
+    margin: 0;
+}
+
+/*Structure*/
+#mainContainer {
+  padding-bottom: 60px;
+}
+
+#pageTitle {
+  font-size: 3.5em;
+  margin: 60px;
+}
+
+#home-link {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.shadows-font {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 1em;
+}
+
+/*Images*/
+.mj {
+  width: 200%;
+  height: auto;
+  margin: 0px 0 60px 0;
+}
+
+.imgTab {
+  width: 9.6%;
+  height: auto;
+  opacity: 0.7;
+  padding: 5px;
+  transition: all 0.2s ease;
+  display: inline-block;
+  
+  
+}
+
+.imgTab:hover {
+  opacity: 1;
+}
+
+.album-header {
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
+
+  
+}
+
+
+.albumFeature {
+  margin: 20px auto 60px auto;
+  border-style: solid;
+  border-width: 1em;
+}
+
+.album-center {
+  border-radius: 3px;
+  padding: 0 0 30px;
+}
+
+.album {
+  background: white;
+  padding: 20px;
+  
+ 
+}
+
+.album li {
+  list-style-type: none;
+  text-align: center;
+  margin-left: -40px;
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+/*footer*/
+footer {
+  padding: 40px;
+  background: black;
+  color: white;
+  margin: 60px 0 0 0;
+  text-align: center;
+}
+
+/*style*/
+/*Bio*/
+.bio h1, h2 {
+  color: black;
+}
+
+.bio {
+  background-color: #740001;
+  color: black;
+}
+
+.bio .well {
+  background-color: #C5C1BE;
+}
+
+.bio .album-center {
+  background-color: #740001;
+}
+
+.bio .album-left, .antho .album-right, .antho .album-container {
+  background-color: #EFEBE8;
+}
+
+.bio .album-container {
+  background: white;
+}
+
+
+
+.bio a {
+  color: black;
+}
+
+.bio a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/*gottobethere*/
+.gottobethere h1, h2 {
+  color: black;
+}
+
+.gottobethere {
+  background-color: #14191A;
+  color: #2A3B45;
+}
+
+.gottobethere .well {
+  background-color: #72889C;
+}
+
+.gottobethere .album-center {
+  background-color: #5D768A;
+}
+
+.gottobethere .album-left, .idCri .album-right, .idCri .album-container {
+  background-color: #CAD1D8;
+}
+
+.gottobethere a {
+  color: #4B5E6B;
+}
+
+.gottobethere a:hover {
+  color: #CAD1D8;
+  text-decoration: none;
+}
+
+/*Ben*/
+.ben h1, h2 {
+  color: black;
+}
+
+.ben {
+  background-color: #050605;
+  color: #4E5F57;
+}
+
+.ben .well {
+  background-color: #1A472A;
+}
+
+.ben .album-center {
+  background-color: #4d7f17;
+}
+
+.ben .album-left, .ilSaf .album-right, .ilSaf .album-container {
+  background-color: #EEFBFB ;
+}
+
+.ben a {
+  color: #9BA8A3;
+}
+
+.ben a:hover {
+  color: #90926F;
+  text-decoration: none;
+}
+
+/*musicandme*/
+.musicandme h1, h2 {
+  color: black;
+}
+
+.musicandme {
+  background-color: #4D622C;
+  color: #8F7030;
+}
+
+.musicandme .well {
+  background-color: #C0CFA5;
+}
+
+.musicandme .album-center {
+  background-color: #96B48D;
+}
+
+.musicandme .album-left, .arAmb .album-right, .arAmb .album-container {
+  background-color: #FBFCFA ;
+}
+
+.musicandme a {
+  color: #709556;
+}
+
+.musicandme a:hover {
+  color: #4D622C;
+  text-decoration: none;
+}
+
+/*forever*/
+.forever h1, h2 {
+  color: black;
+}
+  
+.forever {
+  background-color: #143818;
+  color: #2E4D2C;
+}
+
+.forever .well {
+  background-color: #959672;
+}
+
+.forever .album-center {
+  background-color: #788562;
+}
+
+.forever .album-left, .vheis .album-right, .vheis .album-container {
+  background-color: #C1B896 ;
+}
+
+.forever a {
+  color: #586A48;
+}
+
+.forever a:hover {
+  color: #C1B896;
+  text-decoration: none;
+}
+
+/*off*/
+.off h1, h2 {
+  color: black;
+}
+
+.off {
+  background-color: #343337;
+  color: #4B413D;
+}
+
+.off .well {
+  background-color: #92966A;
+}
+
+.off .album-center {
+  background-color: #8D6F4C;
+}
+
+.off .album-left, .alchy .album-right, .alchy .album-container {
+  background-color: #CFCBBE ;
+}
+
+.off a {
+  color: #CFCBBE;
+}
+
+.off a:hover {
+  color: #8A360A;
+  text-decoration: none;
+}
