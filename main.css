@@ -17,6 +17,7 @@ body {
 #home-link {
   font-size: 1.5em;
   text-decoration: none;
+  
 }
 
 .shadows-font {
@@ -30,6 +31,11 @@ h1 {
 h3 {
   font-family: 'Lobster', cursive;
   font-size: 1em;
+  border-style: groove;
+  border-width: 10px;
+  padding: 5px;
+  margin-left: 500px;
+  margin-right: 470px;
 }
 
 /*Images*/
@@ -76,6 +82,8 @@ h3 {
 .album {
   background: white;
   padding: 20px;
+  font-family: 'Oswald', sans-serif;
+
   
  
 }
@@ -290,5 +298,164 @@ footer {
 
 .off a:hover {
   color: #8A360A;
+  text-decoration: none;
+}
+
+/*thriller*/
+.off h1, h2 {
+  color: black;
+}
+
+.thriller {
+  background-color: #000000;
+  color: #4B413D;
+}
+
+.thriller .well {
+  background-color: #d3a625;
+}
+
+.thriller .album-center {
+  background-color: black;
+}
+
+.thriller .album-left, .alchy .album-right, .alchy .album-container {
+  background-color: #CFCBBE ;
+}
+
+.thriller a {
+  color: #4a6084;
+}
+
+.thriller a:hover {
+  color: #a69eb0;
+  text-decoration: none;
+}
+
+
+/*bad*/
+.off h1, h2 {
+  color: black;
+}
+
+.bad {
+  background-color: #000000;
+  color: #4B413D;
+}
+
+.bad .well {
+  background-color: grey;
+}
+
+.bad .album-center {
+  background-color: #d1d4dd;
+}
+
+.bad .album-left, .alchy .album-right, .alchy .album-container {
+  background-color: #CFCBBE ;
+}
+
+.bad a {
+  color: #CFCBBE;
+}
+
+.bad a:hover {
+  color: #a69eb0;
+  text-decoration: none;
+}
+
+
+/*dangerous*/
+.off h1, h2 {
+  color: black;
+}
+
+.dangerous {
+  background-color: #000000;
+  color: #4B413D;
+}
+
+.dangerous .well {
+  background-color: #032149;
+}
+
+.dangerous .album-center {
+  background-color: #a67c00;
+}
+
+.dangerous .album-left, .alchy .album-right, .alchy .album-container {
+  background-color: #CFCBBE ;
+}
+
+.dangerous a {
+  color: #4a6084;
+}
+
+.dangerous a:hover {
+  color: #a69eb0;
+  text-decoration: none;
+}
+
+
+/*history*/
+.off h1, h2 {
+  color: black;
+}
+
+.history {
+  background-color: #000000;
+  color: #4B413D;
+}
+
+.history .well {
+  background-color: #800909;
+}
+
+.history .album-center {
+  background-color: #a67c00;
+}
+
+.history .album-left, .alchy .album-right, .alchy .album-container {
+  background-color: #CFCBBE ;
+}
+
+.history a {
+  color: #CFCBBE;
+}
+
+.history a:hover {
+  color: #fdcf58;
+  text-decoration: none;
+}
+
+
+/*invincible*/
+.off h1, h2 {
+  color: black;
+}
+
+.invincible {
+  background-color: #4a6084;
+  color: #4B413D;
+}
+
+.invincible .well {
+  background-color: #e1e1e1;
+}
+
+.invincible .album-center {
+  background-color: #9ca2c4;
+}
+
+.invincible .album-left, .alchy .album-right, .alchy .album-container {
+  background-color: #CFCBBE ;
+}
+
+.invincible a {
+  color: #292929;
+}
+
+.invincible a:hover {
+  color: #4a6084;
   text-decoration: none;
 }
