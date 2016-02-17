@@ -19,10 +19,19 @@ $(document).ready(function(){
     $("body").removeClass().addClass("off");
   });
   $("#album6").click(function(){
-    $("body").removeClass().addClass();
+    $("body").removeClass().addClass("thriller");
   });
   $("#album7").click(function(){
-    $("body").removeClass().addClass();
+    $("body").removeClass().addClass("bad");
+  });
+  $("#album8").click(function(){
+    $("body").removeClass().addClass("dangerous");
+  });
+  $("#album9").click(function(){
+    $("body").removeClass().addClass("history");
+  });
+  $("#album10").click(function(){
+    $("body").removeClass().addClass("invincible");
   });
 });
                 
